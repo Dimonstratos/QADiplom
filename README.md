@@ -9,9 +9,9 @@
 
 #### Тестовая документация
 
-1. [План тестирования](https://github.com/Dimonstratos/QADiplom/blob/main/Documents/Plan.md)
-1. [Отчет по итогам тестирования](https://github.com/Dimonstratos/QADiplom/blob/main/Documents/Report.md)
-1. [Отчет по итогам автоматизации](https://github.com/Dimonstratos/QADiplom/blob/main/Documents/Summary.md)
+1. [План тестирования](https://github.com/Dimonstratos/QADiplom/blob/master/Documents/Plan.md)
+1. [Отчет по итогам тестирования](https://github.com/Dimonstratos/QADiplom/blob/master/Documents/Report.md)
+1. [Отчет по итогам автоматизации](https://github.com/Dimonstratos/QADiplom/blob/master/Documents/Summary.md)
 
 # Начало работы
 
