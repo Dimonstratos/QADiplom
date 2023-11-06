@@ -10,4 +10,4 @@
 - проблемы с настройкой контейнеров
 - несовместимость версий ПО
 #### Итог по времени:
-- В соответсвии с [планом.](https://github.com/Dimonstratos/QADiplom/blob/main/Documents/Plan.md)
+- В соответсвии с [планом.](https://github.com/Dimonstratos/QADiplom/blob/master/Documents/Plan.md)
