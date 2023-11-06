@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
+import static java.time.Duration.ofSeconds;
 
 public class PaymentPage {
     private SelenideElement heading = $$("h3").find(text("Оплата по карте"));
@@ -61,31 +62,29 @@ public class PaymentPage {
     }
 
     public void notificationSuccessIsVisible() {
-        notificationSuccess.shouldBe(visible, Duration.ofSeconds(4));
+        notificationSuccess.shouldBe(visible, ofSeconds(4));
     }
 
     public void notificationErrorIsVisible() {
-        notificationError.shouldBe(visible, Duration.ofSeconds(4));
+        notificationError.shouldBe(visible, ofSeconds(4));
     }
 
     public void waitForValidationFieldMessage() {
-        validationFieldMessage.shouldBe(visible, Duration.ofSeconds(4));
+        validationFieldMessage.shouldBe(visible, ofSeconds(4));
     }
 
     public void waitForWrongFormatMessage() {
-        wrongFormatMessage.shouldBe(visible, Duration.ofSeconds(4));
+        wrongFormatMessage.shouldBe(visible, ofSeconds(4));
     }
 
     public void waitForInvalidCharactersMessage() {
-        invalidCharMessage.shouldBe(visible, Duration.ofSeconds(4));
+        invalidCharMessage.shouldBe(visible, ofSeconds(4));
     }
 
-    public void waitForWrongCardExpirationMessage() {
-        wrongExpirationMessage.shouldBe(visible, Duration.ofSeconds(4));
-    }
+    public void waitForWrongCardExpirationMessage() { wrongExpirationMessage.shouldBe(visible, ofSeconds(4)); }
 
     public void waitForCardExpiredMessage() {
-        cardExpiredMessage.shouldBe(visible, Duration.ofSeconds(4));
+        cardExpiredMessage.shouldBe(visible, ofSeconds(4));
     }
 
 }
