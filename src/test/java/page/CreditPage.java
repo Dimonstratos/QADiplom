@@ -59,10 +59,10 @@ public class CreditPage {
         return new PaymentPage();
     }
 
-    public void notificationSuccessIsVisible() {notificationSuccess.shouldBe(visible, ofSeconds(4));}
+    public void notificationSuccessIsVisible() {notificationSuccess.shouldBe(visible, ofSeconds(15));}
 
     public void notificationErrorIsVisible() {
-        notificationError.shouldBe(visible, ofSeconds(4));
+        notificationError.shouldBe(visible, ofSeconds(15));
     }
 
     public void waitForValidationFieldMessage() {

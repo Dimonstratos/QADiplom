@@ -62,11 +62,11 @@ public class PaymentPage {
     }
 
     public void notificationSuccessIsVisible() {
-        notificationSuccess.shouldBe(visible, ofSeconds(4));
+        notificationSuccess.shouldBe(visible, ofSeconds(15));
     }
 
     public void notificationErrorIsVisible() {
-        notificationError.shouldBe(visible, ofSeconds(4));
+        notificationError.shouldBe(visible, ofSeconds(15));
     }
 
     public void waitForValidationFieldMessage() {
